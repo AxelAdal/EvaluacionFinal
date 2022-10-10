@@ -1,0 +1,82 @@
+/*La seccion*/
+footer{
+    background-color: rgb(33, 71, 114);
+    width: 100%;
+    height: 68rem;
+    background-position: center;
+    
+    position: relative;
+}
+/*Imagen de edulearn*/
+.edu1{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 20rem;
+    height: 6rem;
+}
+/*Parrafo o titulo*/
+.p1{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color:var(--color2);
+    font-size: 2rem;
+}
+/*La caja de las imagenes e face y demas*/
+.imagenes{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+}
+.edu2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4rem;
+}
+.edu3{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4rem;
+}
+.edu4{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4rem;
+}
+/*Las filas de texto*/
+.Pie{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: var(--color2);
+    font-size: 2rem;
+}
+/*Caja del corazon*/
+.naranja{
+    margin-top: 2rem;
+   width: 100%;
+   height: 7rem;
+   display: flex;
+   justify-content: center;
+}
+/*imagen o boton corazón*/
+.cocoro{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4rem;
+}
+/*El ultimo texto de la pagina*/
+.fin{
+   color: var(--color2);
+   font-size: 1.5rem;
+   text-align: center;
+}
+@media only screen and (min-width: 1366px) {
+}

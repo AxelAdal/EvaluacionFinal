@@ -1,0 +1,171 @@
+.Testimonial{
+    width: 100%;
+    height: 76rem;
+    background-position: center;
+    
+    position: relative;
+}
+.casita{
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 75rem;
+}
+.contenido2{
+    width: 100%;
+    height: 70rem;
+    margin-top: 1rem;
+}
+.contenido2 h4{
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+.contenido2 p{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--color4);
+}
+/*Esta es la caja padre de los iconos*/
+.base{
+    margin-top: 1rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 52rem;
+}
+/*El texto de linea feature naranja*/
+.test{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.wat{
+    color: var(--color2);
+}
+.they{
+    color: var(--color3);
+}
+/*----------------------------------------------*/
+/*Primer subcaja*/
+.c1{
+    width: 100%;
+    height: 13rem;
+}
+.c1 h2{
+    color: darkgrey;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.pro{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color2);
+}
+.c1 span{
+    color: beige;
+}
+/*Segunda sub caja*/
+.c2{
+    width: 100%;
+    height: 14rem
+}
+.c2 h2{
+    color: darkgrey;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.kit{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color2);
+}
+.c2 span{
+    color: beige;
+}
+/*tercera subcaja*/
+.c3{
+    width: 100%;
+    height: 12rem
+}
+.c3 h2{
+    color: darkgrey;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.bid{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color2);
+}
+.c3 span{
+    color: beige;
+}
+/*Cuarta subcaja*/
+.c4{
+    width: 100%;
+    height: 14rem
+}
+.c4 h2{
+    color: darkgrey;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.viz{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color2);
+}
+.c4 span{
+    color: beige;
+}
+@media only screen and (min-width: 1366px){
+    .Testimonial{
+        height: 45rem;
+        background-position: center;
+        
+        position: relative;
+    }
+    .casita{
+        margin-top: 2rem;
+        height: 32rem;
+    }
+    .contenido2{
+        height: 28rem;
+        margin-top: 3rem;
+    }
+    .base{
+        margin-top: 6rem;
+        height: 16rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .test{
+        margin-left: 1rem;
+    }
+    .contenido2 h4{
+        margin-left: 3rem;
+    }
+    .contenido2 p{
+        margin-left: 3rem;
+    }
+    .linea_google{
+        border-top: 1px solid rgb(83, 52, 10);
+        height: 1rem;
+        padding: 0;
+        margin: 20px auto 0 auto;
+    }
+}

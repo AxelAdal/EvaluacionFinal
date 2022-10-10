@@ -1,0 +1,203 @@
+/*El diseño de la sección*/
+.How_to{
+    width: 100%;
+    height: 42rem;
+    background-color: rgb(61, 134, 218);
+    background-position: center;
+    
+    position: relative;
+}
+/*Caja padre de los textos How to*/
+.tio{
+    width: 100%;
+    height: 41rem;
+}
+/*Caja de las imagenes y los textos de abajo 1*/
+.cajaPadre1{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    color: var(--color3);
+    margin-top: 1rem;
+}
+/*Caja de las imagenes y los textos de abajo 2*/
+.cajaPadre2{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    color: var(--color3);
+}
+/*las cualidades del titulo*/
+.how{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+    display: flex;
+    justify-content: center;
+}
+/*La caja de los textos h4 y p*/
+.centro{
+    margin-top: 1rem;
+    text-align: center;
+}
+.centro h4{
+    font-size: 3rem;
+}
+.centro p{
+    color: var(--color4);
+    font-size: 1.5rem;
+   margin-top: 1rem;
+}
+/*caja 1 */
+.iconos1{
+    width: 50%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 1rem 1rem 1rem;
+}
+.iconos1 h1{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.img1{
+    margin-left: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.iconos2{
+    width: 50%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 1rem 1rem 1rem;
+}
+.iconos2 h1{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.img2{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    width: 6rem;
+    height: 6rem;
+}
+.iconos3{
+    width: 50%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 1rem 1rem 1rem;
+}
+.iconos3 h1{
+    margin-top: 2rem;
+    margin-left:1rem;
+}
+.img3{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+.iconos4{
+    width: 50%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem  1rem 1rem 1rem;
+}
+.iconos4 h1{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.img4{
+    margin-left: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+@media only screen and (min-width: 1366px){
+    .How_to{
+        width: 100%;
+        height: 39rem;
+        background-color: rgb(61, 134, 218);
+        background-position: center;
+        
+        position: relative;
+    }
+    .tio{
+        width: 100%;
+        height: 38rem;
+    }
+    .how{
+        margin-right: 6rem;  
+    }
+    .centro p{
+        color: var(--color4);
+        font-size: 1.5rem;
+       margin-top: 2rem;
+    }
+    .cajaPadre1{
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        color: var(--color3);
+        margin-top: 1rem;
+    }
+    /*Caja de las imagenes y los textos de abajo 2*/
+    .cajaPadre2{
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
+        color: var(--color3);
+    }
+    .iconos1 h1{
+        margin-top: 3rem;
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+    .img1{
+        margin-left: 1rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    .iconos2 h1{
+        margin-left: 1rem;
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+    .img2{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    .iconos3 h1{
+        margin-top: 3rem;
+        margin-left:1rem;
+        font-size: 2rem;
+    }
+    .img3{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    .iconos4 h1{
+        margin-left: 1rem;
+        margin-top: 3rem;
+        font-size: 2rem
+    }
+    .img4{
+        margin-left: 2rem;
+        width: 8rem;
+        height: 8rem;
+    }
+}

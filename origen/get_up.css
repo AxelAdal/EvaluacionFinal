@@ -1,0 +1,179 @@
+/*EL CUERPO DE LA SECCION*/
+.Get_New_Update{
+    background-color: rgb(61, 134, 218);
+    width: 100%;
+    height: 45rem;
+    background-position: center;
+    
+    position: relative;
+}
+/*La barrita gris con el teto naranja*/
+.get{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+/*La seccion del titulo los votones y los parrafos con circulos*/
+.contenido5{
+    width: 100%;
+    height: 40rem;
+    margin-top: 1rem;
+}
+.contenido5 h4{
+    margin-left: 1rem;
+    font-size: 4rem;
+}
+.contenido5 p{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--color4);
+}
+.new{
+    color: var(--color2);
+}
+.for{
+    color: var(--color3);
+}
+/*La fase de los botones*/
+.email2{
+    background-color: rgb(231, 219, 219);
+    display: flex;
+     width: 90%;
+     height: 5rem;
+     margin-top: 2rem;
+     margin-left: 2rem;
+     border-radius: 5rem;
+}
+/*El texto dentro de la barra del boton New up*/
+.email2 h1{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--color4);
+}
+/*El boton naranja de New up*/
+.email2 a{
+    height: 4rem;
+    text-decoration: none;
+    display: block;
+    color: var(--color2);
+    background-color: var(--color3);
+    width: 16rem;
+    border-radius: 12rem;
+    margin-left: 2.7rem;
+    margin-top: 0.5rem;
+
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textos{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 4rem;
+    color: var(--color2);
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+}
+.linea9 {
+    border-top: 1px solid rgb(83, 52, 10);
+    height: 1rem;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+@media only screen and (min-width: 1366px) {
+    .Get_New_Update{
+        background-color: rgb(61, 134, 218);
+        width: 80%;
+        height: 35rem;
+        margin-left: 13rem;
+        margin: 0rem 0rem 4rem 13rem;
+        background-position: center;
+        border-radius: 5rem;
+        
+        position: relative;
+    }
+    /*La barrita gris con el teto naranja*/
+    .get{
+        display: flex;
+        align-items: center;
+        margin-left: 6.3rem;
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: var(--color3);
+    }
+    .contenido5{
+      
+        width: 100%;
+        height: 30rem;
+        margin-top: 1rem;
+    }
+    .contenido5 h4{
+        margin-top: 2.5rem;
+        margin-left: 8rem;
+        font-size: 4rem;
+    }
+    .contenido5 p{
+        margin-left: 8rem;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        color: var(--color4);
+    }
+    .linea9 {
+        border-top: 1px solid rgb(83, 52, 10);
+        height: 1rem;
+        padding: 0;
+        margin: 2rem 5rem 0 5rem;
+    }
+    .email2{
+        background-color: rgb(231, 219, 219);
+        display: flex;
+         width: 40rem;
+         height: 5rem;
+         margin-top: -2rem;
+         margin-left: 60rem;
+         border-radius: 5rem;
+    }
+    /*El texto dentro de la barra del boton New up*/
+    .email2 h1{
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        font-size: 1.5rem;
+        color: var(--color4);
+    }
+    /*El boton naranja de New up*/
+    .email2 a{
+        height: 4rem;
+        text-decoration: none;
+        display: block;
+        color: var(--color2);
+        background-color: var(--color3);
+        width: 16rem;
+        border-radius: 12rem;
+        margin-left: 9rem;
+        margin-top: 0.5rem;
+    
+        font-size: 1.5rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .textos{
+        margin-top: 1.5rem;
+        width: 100%;
+        height: 4rem;
+        color: var(--color2);
+        display: flex;
+        flex-direction:row ;
+        justify-content: center;
+    }
+    
+}

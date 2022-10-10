@@ -1,0 +1,91 @@
+header{
+    width: 100%;
+    padding: 1rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arriba{
+    width: 100%;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.arriba li{
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    padding: 1rem 2rem;
+    color: var(--color2);
+}
+.solo{
+    font-size: 2rem;
+    font-weight: 600;
+
+    margin-top: 0.5rem;
+    color:var(--color2);
+}
+.nara{
+    text-decoration: none;
+    display: block;
+    width: 14rem;
+    height: 5rem;
+    background-color:var(--color1);
+    color:var(--color2); 
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin: auto;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/************************************************************************************************************************/
+/*Cambio de pagino a tamaño compu*/
+@media only screen and (min-width: 1366px){
+header{
+ width: 100%;
+ margin: auto;
+ padding: 2rem 2rem;
+
+ flex-direction: row;
+ justify-content: space-between;
+}
+.arriba{
+    width: 55%;
+    list-style: none;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+}
+.arriba li{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.solo{
+     padding: 1rem 3rem 1rem 4rem;
+ }
+.nara{
+    width: 16rem;
+
+    padding: 1rem;
+    margin: 0rem 2rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+img{
+     width: 15rem;
+     margin-left: 5rem;
+ }
+}

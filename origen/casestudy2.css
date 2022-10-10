@@ -1,0 +1,124 @@
+/*Diseño de la secciomn*/
+.CaseStudy2{
+    width: 100%;
+    height: 96rem;
+    background-position: center;
+    position: relative;
+}
+/*El texto naranja y blanco*/
+.Ca2{
+    color: var(--color2);
+}
+.On2{
+    color: var(--color3);
+}
+/*Caja mdre*/
+.madre2{
+    width: 100%;
+    height: 95rem;
+}
+/*caja hijo de madre*/
+.contenido_2{
+    width: 100%;
+    height: 54rem;
+    margin-top: 1rem;
+}
+.contenido_2 img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    justify-content: right;
+}
+.contenido_2 h4{
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+.contenido_2 p{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--color4);
+}
+.linea3{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.circulo2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--color3);
+    font-size: 1.5rem;
+}
+.costum2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--color2);
+}
+/*La franja que divide las hojas*/
+.linea4{
+    border-top: 1px solid rgb(83, 52, 10);
+    height: 1rem;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+/*------------------------------------------------------------------------------*/
+@media only screen and (min-width: 1366px) {
+    .CaseStudy2{
+        width: 100%;
+        height: 58rem;
+    }
+    .contenido_2{
+        width: 100%;
+        height: 54rem;
+        margin-top: 1rem;
+    }
+    .contenido_2 img{
+        width: 50rem;
+        height: 45rem;
+        margin-top: -40rem;
+        border-radius: 1rem;
+        margin-left: 70rem;
+    }
+.contenido_2 h4{
+    margin-left: 8rem;
+    font-size: 4rem;
+}
+.contenido_2 p{
+    margin-left: 8rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--color4);
+}
+.linea3{
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.circulo2{
+    margin-top: 2rem;
+    margin-left: 8rem;
+    color: var(--color3);
+    font-size: 1.5rem;
+}
+.costum2{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    font-size: 2rem;
+    color: var(--color2);
+}
+.linea4{
+    border-top: 1px solid rgb(83, 52, 10);
+    height: 1rem;
+    padding: 0;
+    margin: 2rem 75rem 0 8rem;
+}
+}

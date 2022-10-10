@@ -1,0 +1,137 @@
+/*Diseño de la secciomn*/
+.CaseStudy{
+    width: 100%;
+    height: 96rem;
+    background-position: center;
+    position: relative;
+}
+/*Caja mdre*/
+.madre{
+    width: 100%;
+    height: 95rem;
+}
+/*La base del contenido 1*/
+.contenido_1{
+    width: 100%;
+    height: 54rem;
+    margin-top: 1rem;
+}
+.contenido_1 img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    justify-content: right;
+}
+.contenido_1 h4{
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+.contenido_1 p{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--color4);
+}
+.linea2{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+}
+.Ca{
+    color: var(--color2);
+}
+.On{
+    color: var(--color3);
+}
+.circulo{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--color3);
+    font-size: 1.5rem;
+}
+/*Diseños*/
+.linea {
+    border-top: 1px solid rgb(83, 52, 10);
+    height: 1rem;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+.linea_sub{
+    border-top: 1px solid rgb(83, 52, 10);
+    height: 1rem;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+.costum{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--color2);
+}
+/*-------------------------------------------------------*/
+@media only screen and (min-width: 1366px) {
+    .CaseStudy{
+        width: 100%;
+        height: 60rem;
+        background-position: center;
+        position: relative;
+    }
+.contenido_1{
+        height: 56rem;
+}
+/*Para cambiar el tamaño de la imagen*/
+.contenido_1 img{
+    width: 50rem;
+    height: 45rem;
+    margin-top: -39rem;
+    border-radius: 2rem;
+}
+.contenido_1 h4{
+    font-size: 4rem;
+    margin-left: 65rem;
+}
+.contenido_1 p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--color4);
+    margin-left: 65rem;
+}
+.circulo{
+    margin-top: 2rem;
+    margin-left: 65rem;
+    color: var(--color3);
+    font-size: 1.5rem;
+}
+.costum{
+    margin-top: 1rem;
+    margin-left: 65rem;
+    font-size: 2rem;
+    color: var(--color2);
+}
+.linea2{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color3);
+    margin-right: 57rem;
+    justify-content: right;
+}
+.linea {
+    border-top: 1px solid rgb(83, 52, 10);
+    height: 1rem;
+    padding: 0;
+    margin: 2rem 20rem 0rem 60rem;
+}
+.linea_sub{
+    border-top: 1px solid rgb(83, 52, 10);
+    height: 1rem;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+}
